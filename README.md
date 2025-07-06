@@ -1,7 +1,173 @@
 
 <details>
 
-<summary>Desafio : Telecom X - Análisis de Evasión de Clientes </summary>
+<summary>📈 🧠 Clasificación en Machine Learning: Validación de Modelos y Métricas de Evaluación - IA Aumentada: Previsión de Atrasos de Vuelos (6TO MODULO) </summary>
+
+## 🧠 Clasificación en Machine Learning: Validación de Modelos y Métricas de Evaluación
+
+En este módulo se profundiza en cómo validar modelos de clasificación y evaluar su rendimiento, incluyendo técnicas de balanceo de datos y pipelines reproducibles.
+
+### 🔹 Contenidos Clave
+
+- **Técnicas de Validación**
+  - Hold-out (entrenamiento/prueba)
+  - Validación cruzada k-fold
+
+- **Métricas de Evaluación**
+  - Accuracy, precisión, recall, F1-score
+  - Matriz de confusión y curva ROC-AUC
+  - Métricas según tipo de problema: balanceado vs desbalanceado
+
+- **Balanceo de Datos**
+  - Técnicas de oversampling (ej: SMOTE)
+  - Técnicas de undersampling
+  - Implementación con `imbalanced-learn`
+
+- **Pipelines de ML**
+  - Creación de pipelines con `scikit-learn`
+  - Preprocesamiento, modelado y validación en una misma estructura
+
+### 🧰 Herramientas y Librerías
+- `scikit-learn`, `imbalanced-learn`, `pandas`, `numpy`
+- `matplotlib`, `seaborn` para visualización de métricas
+
+### 🎯 Objetivos del Módulo
+- Validar y evaluar modelos de clasificación de forma robusta
+- Seleccionar métricas adecuadas según el contexto del problema
+- Prevenir el sobreajuste y sesgos en modelos desbalanceados
+
+
+## ✈️ IA Aumentada: Previsión de Atrasos de Vuelos
+
+Este módulo aborda el uso de técnicas de aprendizaje automático para predecir retrasos en vuelos, combinando visualización, ingeniería de características y optimización de modelos.
+
+### 🔹 Contenidos Clave
+
+- **Visualización y Comunicación**
+  - Gráficos descriptivos con `seaborn`, `matplotlib`
+  - Storytelling de datos para compartir hallazgos
+
+- **Ingeniería de Características**
+  - Codificación de variables categóricas (`OneHotEncoder`, `LabelEncoder`)
+  - Selección de variables importantes (`feature_importances_`, `SelectKBest`)
+
+- **Modelos de Regresión**
+  - `DummyRegressor` como modelo base
+  - `RandomForestRegressor` para predicciones más complejas
+  - Comparación de desempeño entre modelos
+
+- **Evaluación y Optimización**
+  - Métricas: MAE, MSE, RMSE, R²
+  - Análisis de errores mediante gráficos de residuales
+  - Optimización de hiperparámetros con `GridSearchCV` y `RandomizedSearchCV`
+
+### 🧰 Herramientas y Librerías
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `scikit-learn` para modelado, validación y optimización
+
+### 🎯 Objetivos del Módulo
+- Construir modelos de regresión para problemas del mundo real
+- Comunicar de forma clara hallazgos predictivos y visuales
+- Aplicar técnicas avanzadas para mejorar el rendimiento del modelo
+
+
+</details>
+
+---
+<details>
+
+<summary>📈 Data Science: Probando Relaciones & Regresión Lineal con Python (5TO MODULO)</summary>
+
+## 📈 Data Science: Probando Relaciones & Regresión Lineal con Python
+
+Este módulo explora cómo identificar, visualizar y cuantificar relaciones entre variables usando técnicas estadísticas, en especial la **regresión lineal**. Se orienta a extraer insights y hacer predicciones basadas en datos.
+
+### 🔹 Contenidos Principales
+
+- **Análisis Exploratorio de Relaciones**
+  - Matrices de correlación y coeficiente de Pearson
+  - Diagramas de dispersión (scatter plots)
+  - Detección visual de relaciones lineales
+
+- **Regresión Lineal Simple**
+  - Modelo \( y = \beta_0 + \beta_1 x + \varepsilon \)
+  - Ajuste del modelo con `scikit-learn` y `statsmodels`
+  - Interpretación de coeficientes: pendiente, intercepto
+
+- **Evaluación del Modelo**
+  - Métricas: R², MSE (Error cuadrático medio), MAE
+  - Validación cruzada y overfitting
+  - Visualización de residuales
+
+- **Supuestos del Modelo Lineal**
+  - Linealidad, independencia, homocedasticidad, normalidad
+  - Detección de outliers e influencia: leverage y Cook’s Distance
+
+- **Visualización de Resultados**
+  - Gráficos de regresión con `seaborn` y `matplotlib`
+  - Análisis gráfico de errores y ajustes
+
+### 🧰 Herramientas y Librerías
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `scikit-learn` para modelado predictivo
+- `statsmodels` para regresión con análisis estadístico detallado
+
+### 🎯 Objetivos del Módulo
+- Comprender y evaluar relaciones estadísticas entre variables
+- Aplicar regresión lineal para predicción y explicación de datos
+- Interpretar resultados con criterio analítico y estadístico
+
+</details>
+
+
+---
+<details>
+
+<summary>📊 Análisis Estadístico, Frecuencias & Medidas, Probabilidad y Muestreo con Python (4TO MODULO) </summary>
+
+## 📊 Análisis Estadístico, Frecuencias & Medidas, Probabilidad y Muestreo con Python
+Este curso proporciona una base sólida para comprender los principios fundamentales de la estadística utilizando Python. Se enfoca en la manipulación de datos, el análisis exploratorio y la aplicación de técnicas estadísticas esenciales.
+
+### 🔹 Contenidos Principales
+
+- **Frecuencias y Distribuciones**
+  - Tablas de frecuencia (absoluta, relativa, acumulada)
+  - Histogramas, diagramas de barras y de sectores
+  - Distribuciones de datos con `pandas` y `matplotlib`
+
+- **Medidas Estadísticas**
+  - Tendencia central: media, mediana, moda
+  - Dispersión: rango, varianza, desviación estándar
+  - Cálculo de percentiles y cuartiles con `numpy`
+
+- **Probabilidad**
+  - Teoría de probabilidades (reglas básicas, eventos independientes y condicionales)
+  - Distribuciones comunes: binomial, normal, Poisson
+  - Simulaciones usando `random`, `scipy.stats`
+
+- **Muestreo**
+  - Tipos de muestreo: aleatorio simple, estratificado, sistemático
+  - Tamaño muestral y sesgo
+  - Técnicas de selección con `pandas` y `sklearn`
+
+### 🧰 Herramientas y Librerías
+- `numpy` | `pandas` | `matplotlib` | `seaborn`
+- `scipy.stats` para distribuciones y pruebas estadísticas
+- `scikit-learn` para métodos de muestreo y modelado básico
+
+### 🎯 Objetivos del Curso
+- Aplicar Python para análisis de datos cuantitativos
+- Interpretar resultados estadísticos para tomar decisiones informadas
+- Desarrollar pensamiento crítico usando evidencia numérica
+
+</details>
+
+
+
+---
+<details>
+
+<summary> 📊 Desafio : Telecom X - Análisis de Evasión de Clientes (3ER MODULO)</summary>
 
 
 ## Informe de Análisis de Evasión de Clientes (Churn)
@@ -48,7 +214,7 @@ El análisis diario del gasto (Cuentas_Diarias) puede facilitar la detección te
 
 ---
 <details>
-<summary> Aprendiendo hacer ETL (2DO MODULO)</summary>
+<summary> 📊 Aprendiendo hacer ETL (2DO MODULO)</summary>
 
 ## NumPy
 
@@ -83,7 +249,7 @@ Plotly se integra fácilmente con Pandas y NumPy, lo que facilita la creación d
 
 ---
 <details>
-<summary> Modelado de Datos con Python (1 ER MODULO)</summary>
+<summary> 📊 Modelado de Datos con Python (1 ER MODULO)</summary>
 
 ### 🛍️ Alura Store - Análisis de Rendimiento de Tiendas
 
